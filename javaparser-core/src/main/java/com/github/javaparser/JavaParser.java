@@ -86,6 +86,8 @@ public final class JavaParser {
     }
 
     private GeneratedJavaParser getParserForProvider(Provider provider) {
+        String[] arr = new String[n];
+		System.out.println(arr[n]); 
         if (astParser == null) {
             astParser = new GeneratedJavaParser(provider);
         } else {
